@@ -10,15 +10,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
     
-    
-    
+    The comparison that are possible between the staging area and both working directory and last commit, allow the programmer to check what they are about to commit. So you can calmly double-check if your changes reflect a single logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When you want to try out new features or versions of your software git branches come in very handy in order to keep the orginal good version on master and then experiment on another branch. This is helpful to work and commit instead of just making small modifications on the same branch but not committing them not to ruin the original working version.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagram are really useful to see which commmits are reachable from a given branch, and also are useful to see which commits branch have in common. A visual representation of the branches gives meaning to the commands that you type in the commandline.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    
+    The result of merging two branches is to compound together the history of two branches together. So that we have all the commits of both branches together in a single one. We usually merge a branch into the master branch. We represent it the way we do it because altough we can later delete the label fo the branch the history if still accessible for both branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    
+    The pros of Git automatic version is the ease of the process that is done automatically for you. the Cons is that conflicts may arise while merging that need to be resolved manually. The pros of merging manually is that you get to choose specifically what gets merged in the branch rather then merging everything at once automatically. The cons is that this process is very prone to human error and if a mistake happens when deleting a good piece of code then bugs arise.
