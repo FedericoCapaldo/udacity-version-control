@@ -1,29 +1,31 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When you are collaborating with other people you definitely need to place the code online to allow others to collaborate with you. You might also want to use a remote repository online if you work in different workstations, like in office and then at home.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    It might be really helpful to manually stay up-to-date because you decide when to update your local repository so in the meantime you can keep on making changes on your project creates new commits and then pull the latest updates from the remote repo.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    FORKING: Github concept that allows you clone a repository from another user online account to your online one. 
+    CLONE: You can clone a repo from online to your local machine or you can even duplicate locally a repository in another location on your machine.
+    BRANCHES: in a repository you can branch off from master to creates new features by making new commits. this happens in the same repository and the updates can be pushed to the origin to the online repository updates.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit is that you can compare your local master to the remote version of master (origin/master). It is useful so that you can 'git fetch' changes and the continue to work offline having a copy of the most update remote repo.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I strongly believe it would be extremely harder to wrok without git as it is a fundamental tool to collaborating with other people. GitHub however might in some cases be replaced by bitbucket without much hustle. However, git is vital.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I think that in any project in which there is more then one person, you should never commit on master otherwise it becomes very difficult to stay always updated and in sync with the team. Only for minor changes one should commit on master. A seprate branch is always a good idea though, because it allows to see all the differences before merging to master as well as giving a programmer the possibility to complete a feature fully before merging it on master. In addition, a branch can be reviewed by another team member before being merged so that all changes for that specific feature can be reviewed by someone in one single block instead of checking commits around pushed directly on master.
